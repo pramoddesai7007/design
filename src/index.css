@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+body {
+    font-family: 'NunitoSans';
+}
+
+@layer utilities {
+    .animate-fade-in-up {
+      animation: fadeInUp 0.5s ease-in-out;
+    }
+  
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(10%);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  }
+  
+  .react-multi-carousel-dot button {
+    background: #000; 
+    border: none;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    border-radius: 50%;
+  }
+  
+  .react-multi-carousel-dot--active button {
+    background: #f97316 !important;
+  }
+  
+@font-face {
+    font-family: 'NunitoSans';
+    src: url('./assets/fonts/NunitoSans_7pt-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NunitoSansSemiBold';
+    src: url('./assets/fonts/NunitoSans_7pt-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'NunitoSansBold';
+    src: url('./assets/fonts/NunitoSans_7pt-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./assets/fonts/Poppins-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins-Bold';
+    src: url('./assets/fonts/Poppins-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins-Medium';
+    src: url('./assets/fonts/Poppins-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Kurale';
+    src: url('./assets/fonts/Kurale-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter400';
+    src: url('./assets/fonts/Inter_18pt-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter600';
+    src: url('./assets/fonts/Inter_18pt-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter700';
+    src: url('./assets/fonts/Inter_18pt-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
